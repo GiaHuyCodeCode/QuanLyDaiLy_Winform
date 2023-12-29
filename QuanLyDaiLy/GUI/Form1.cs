@@ -44,7 +44,8 @@ namespace QuanLyDaiLy
         #region Events
         private void btn_Home_Click(object sender, EventArgs e)
         {
-           
+            panel_Main.Controls.Clear();
+            openChildForm(new FDangNhap());
         }
 
         private void btn_DaiLy_Click(object sender, EventArgs e)
@@ -82,11 +83,32 @@ namespace QuanLyDaiLy
             panel_Main.Controls.Clear();
             this.Close();
         }
+
+        private void DoanhThu_Click(object sender, EventArgs e)
+        {
+            panel_Main.Controls.Clear();
+            openChildForm(new FThongTinDoanhThu());
+        }
         #endregion
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            btn_Home_Click(sender, e);
         }
     }
 

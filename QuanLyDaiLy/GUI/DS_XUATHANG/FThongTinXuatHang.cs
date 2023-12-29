@@ -16,5 +16,6 @@ namespace QuanLyDaiLy.GUI.DS_XUATHANG
         {
             InitializeComponent();
         }
+
     }
 }

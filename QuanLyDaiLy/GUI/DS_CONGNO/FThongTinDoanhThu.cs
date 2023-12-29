@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyDaiLy.GUI.DS_CONGNO
 {
-    public partial class FThongTinCongNo : Form
+    public partial class FThongTinDoanhThu : Form
     {
-        public FThongTinCongNo()
+        public FThongTinDoanhThu()
         {
             InitializeComponent();
+        }
+
+        private void FThongTinDoanhThu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -80,11 +80,23 @@
     <Compile Include="DTO\UserAccount.cs" />
     <Compile Include="DTO\UserRight.cs" />
     <Compile Include="DTO\UserRole.cs" />
-    <Compile Include="GUI\DS_CONGNO\FThongTinCongNo.cs">
+    <Compile Include="GUI\FDangKi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\DS_CONGNO\FThongTinCongNo.Designer.cs">
-      <DependentUpon>FThongTinCongNo.cs</DependentUpon>
+    <Compile Include="GUI\FDangKi.Designer.cs">
+      <DependentUpon>FDangKi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FDangNhap.Designer.cs">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_CONGNO\FThongTinDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_CONGNO\FThongTinDoanhThu.Designer.cs">
+      <DependentUpon>FThongTinDoanhThu.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\DS_DAILY\FThongTinDaiLy.cs">
       <SubType>Form</SubType>
@@ -124,8 +136,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="GUI\DS_CONGNO\FThongTinCongNo.resx">
-      <DependentUpon>FThongTinCongNo.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\FDangKi.resx">
+      <DependentUpon>FDangKi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FDangNhap.resx">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DS_CONGNO\FThongTinDoanhThu.resx">
+      <DependentUpon>FThongTinDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DS_DAILY\FThongTinDaiLy.resx">
       <DependentUpon>FThongTinDaiLy.cs</DependentUpon>
@@ -170,7 +188,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="GUI\DANGNHAP\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-power-301.png" />
@@ -186,6 +203,27 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\revenue_report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\debt_report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finance_note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery_note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\market.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\note.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
