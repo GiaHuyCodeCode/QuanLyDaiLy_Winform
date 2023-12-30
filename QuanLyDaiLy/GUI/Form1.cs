@@ -5,6 +5,7 @@ using QuanLyDaiLy.GUI.DS_NHAPHANG;
 using QuanLyDaiLy.GUI.DS_THUNO;
 using QuanLyDaiLy.GUI.DS_THUTIEN;
 using QuanLyDaiLy.GUI.DS_XUATHANG;
+using QuanLyDaiLy.GUI.DS_DOANHSO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -66,16 +67,22 @@ namespace QuanLyDaiLy
         }
 
         private void btn_ThuTien_Click(object sender, EventArgs e)
-        {panel_Main.Controls.Clear();
+        {
+            panel_Main.Controls.Clear();
             openChildForm(new FThongTinThuTien());
         }
 
         private void btn_CongNo_Click(object sender, EventArgs e)
         {
-
             panel_Main.Controls.Clear();
             openChildForm(new FThongTinThuNo());
         }
+
+		private void btn_DoanhSo_Click(object sender, EventArgs e)
+		{
+            panel_Main.Controls.Clear();
+            openChildForm(new FBaoCaoDoanhSo());
+		}
 
         private void btn_DangXuat_Click(object sender, EventArgs e)
         {
@@ -88,7 +95,7 @@ namespace QuanLyDaiLy
         {
             this.Close();
         }
-    }
+	}
 
 
 

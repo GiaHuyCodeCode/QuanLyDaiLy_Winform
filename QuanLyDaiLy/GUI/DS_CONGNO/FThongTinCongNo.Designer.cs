@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // FThongTinCongNo
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(842, 501);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FThongTinCongNo";
-            this.Text = "FThongTinCongNo";
-            this.ResumeLayout(false);
+			this.SuspendLayout();
+			// 
+			// FThongTinCongNo
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(1123, 617);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Name = "FThongTinCongNo";
+			this.Text = "FThongTinCongNo";
+			this.ResumeLayout(false);
 
         }
 
-        #endregion
-    }
+		#endregion
+	}
 }

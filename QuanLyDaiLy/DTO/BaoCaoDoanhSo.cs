@@ -12,14 +12,14 @@ namespace QuanLyDaiLy.DTO
         public string MaBCDS { get; set; } = string.Empty;
         public int Thang { get; set; }
         public int Name { get; set; }
-        public SqlMoney TongDoanhThu { get; set; } = SqlMoney.Zero;
+        public string TongDoanhThu { get; set; } = string.Empty;
 
         public BaoCaoDoanhSo()
         {
             // Nothing
         }
 
-        public BaoCaoDoanhSo(string maBCDS, int thang, int name, SqlMoney tongDoanhThu)
+        public BaoCaoDoanhSo(string maBCDS, int thang, int name, string tongDoanhThu)
         {
             MaBCDS = maBCDS;
             Thang = thang;

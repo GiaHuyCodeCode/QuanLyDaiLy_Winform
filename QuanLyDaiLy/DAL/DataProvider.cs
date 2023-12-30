@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace QuanLyDaiLy.DAL
 {
@@ -115,6 +116,17 @@ namespace QuanLyDaiLy.DAL
                 connection.Close();
             }
             return Convert.ToInt32(data);
+        }
+
+        public int ExecuteStoredProcedure(string query)
+        {
+            using (var conn = new SqlConnection(STR))
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.CommandType = CommandType.Text;
+                return Convert.ToInt32(cmd.ExecuteScalar());
+            }
         }
     }
 }

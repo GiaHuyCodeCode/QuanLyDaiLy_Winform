@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\BaoCaoDoanhSoDAL.cs" />
     <Compile Include="DAL\DataProvider.cs" />
     <Compile Include="DTO\BaoCaoCongNo.cs" />
     <Compile Include="DTO\BaoCaoDoanhSo.cs" />
@@ -91,6 +92,18 @@
     </Compile>
     <Compile Include="GUI\DS_DAILY\FThongTinDaiLy.Designer.cs">
       <DependentUpon>FThongTinDaiLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_DOANHSO\FBaoCaoDoanhSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_DOANHSO\FBaoCaoDoanhSo.Designer.cs">
+      <DependentUpon>FBaoCaoDoanhSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_DOANHSO\UCBaoCaoDoanhSoRow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_DOANHSO\UCBaoCaoDoanhSoRow.Designer.cs">
+      <DependentUpon>UCBaoCaoDoanhSoRow.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\DS_NHAPHANG\FThongTinNhapHang.cs">
       <SubType>Form</SubType>
@@ -129,6 +142,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DS_DAILY\FThongTinDaiLy.resx">
       <DependentUpon>FThongTinDaiLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DS_DOANHSO\FBaoCaoDoanhSo.resx">
+      <DependentUpon>FBaoCaoDoanhSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DS_DOANHSO\UCBaoCaoDoanhSoRow.resx">
+      <DependentUpon>UCBaoCaoDoanhSoRow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DS_NHAPHANG\FThongTinNhapHang.resx">
       <DependentUpon>FThongTinNhapHang.cs</DependentUpon>
@@ -170,7 +189,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="GUI\DANGNHAP\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-power-301.png" />

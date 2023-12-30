@@ -1,4 +1,4 @@
-﻿using QuanLyDaiLy.GUI.DANGNHAP;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +17,7 @@ namespace QuanLyDaiLy
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FDangNhap());
+            Application.Run(new Form1());
         }
     }
 }
