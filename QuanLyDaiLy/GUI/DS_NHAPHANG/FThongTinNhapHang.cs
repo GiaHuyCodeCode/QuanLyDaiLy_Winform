@@ -16,5 +16,11 @@ namespace QuanLyDaiLy.GUI.DS_NHAPHANG
         {
             InitializeComponent();
         }
+
+        private void btn_Taophieu_Click(object sender, EventArgs e)
+        {
+            FTaoPhieu fTaoPhieu = new FTaoPhieu();
+            fTaoPhieu.Show();
+        }
     }
 }

@@ -10,17 +10,21 @@ using System.Windows.Forms;
 
 namespace QuanLyDaiLy.GUI.DS_XUATHANG
 {
-    public partial class FThongTinXuatHang : Form
+    public partial class FTaoPhieu : Form
     {
-        public FThongTinXuatHang()
+        public FTaoPhieu()
         {
             InitializeComponent();
         }
 
-        private void btn_Taophieu_Click(object sender, EventArgs e)
+        private void btnCancel_Click(object sender, EventArgs e)
         {
-            FTaoPhieu fTaoPhieu = new FTaoPhieu();
-            fTaoPhieu.ShowDialog ();
+            this.Close();
+        }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -8,19 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyDaiLy.GUI.DS_XUATHANG
+namespace QuanLyDaiLy.GUI.DS_DANGNHAP
 {
-    public partial class FThongTinXuatHang : Form
+    public partial class FDangNhap : Form
     {
-        public FThongTinXuatHang()
+        public FDangNhap()
         {
             InitializeComponent();
         }
 
-        private void btn_Taophieu_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-            FTaoPhieu fTaoPhieu = new FTaoPhieu();
-            fTaoPhieu.ShowDialog ();
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.ShowDialog();
+            this.Close();
         }
     }
 }

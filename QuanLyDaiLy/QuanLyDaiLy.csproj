@@ -93,6 +93,12 @@
     <Compile Include="GUI\DS_DAILY\FThongTinDaiLy.Designer.cs">
       <DependentUpon>FThongTinDaiLy.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\DS_DANGNHAP\FDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_DANGNHAP\FDangNhap.Designer.cs">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\DS_DOANHSO\FBaoCaoDoanhSo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,12 @@
     </Compile>
     <Compile Include="GUI\DS_DOANHSO\UCBaoCaoDoanhSoRow.Designer.cs">
       <DependentUpon>UCBaoCaoDoanhSoRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_NHAPHANG\FTaoPhieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_NHAPHANG\FTaoPhieu.Designer.cs">
+      <DependentUpon>FTaoPhieu.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\DS_NHAPHANG\FThongTinNhapHang.cs">
       <SubType>Form</SubType>
@@ -122,6 +134,12 @@
     </Compile>
     <Compile Include="GUI\DS_THUTIEN\FThongTinThuTien.Designer.cs">
       <DependentUpon>FThongTinThuTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_XUATHANG\FTaoPhieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_XUATHANG\FTaoPhieu.Designer.cs">
+      <DependentUpon>FTaoPhieu.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\DS_XUATHANG\FThongTinXuatHang.cs">
       <SubType>Form</SubType>
@@ -143,11 +161,17 @@
     <EmbeddedResource Include="GUI\DS_DAILY\FThongTinDaiLy.resx">
       <DependentUpon>FThongTinDaiLy.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DS_DANGNHAP\FDangNhap.resx">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\DS_DOANHSO\FBaoCaoDoanhSo.resx">
       <DependentUpon>FBaoCaoDoanhSo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DS_DOANHSO\UCBaoCaoDoanhSoRow.resx">
       <DependentUpon>UCBaoCaoDoanhSoRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DS_NHAPHANG\FTaoPhieu.resx">
+      <DependentUpon>FTaoPhieu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DS_NHAPHANG\FThongTinNhapHang.resx">
       <DependentUpon>FThongTinNhapHang.cs</DependentUpon>
@@ -157,6 +181,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DS_THUTIEN\FThongTinThuTien.resx">
       <DependentUpon>FThongTinThuTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DS_XUATHANG\FTaoPhieu.resx">
+      <DependentUpon>FTaoPhieu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DS_XUATHANG\FThongTinXuatHang.resx">
       <DependentUpon>FThongTinXuatHang.cs</DependentUpon>
